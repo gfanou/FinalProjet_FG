@@ -1,0 +1,265 @@
+
+@media (max-width: 600px){
+    header #branding,
+    header nav,
+    header nav li{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+}
+body{
+    background: linear-gradient(to top, #915f3e, #D76D77, lightseagreen, #35424a);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+
+}
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+    padding-bottom: 140px;
+
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform:uppercase;
+    font-size: 16px;
+}
+
+header li{
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+
+}
+
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+    color: #17D4FE;
+    font-size: 60px;
+    font-family: "Arial Black";
+
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+
+}
+
+header.highlight,header.current a{
+    color: #e8491d;
+    font-weight: bold;
+}
+header a:hover{
+    color: #e8491d;
+    font-weight: bold;
+}
+
+footer{
+    padding: 15px;
+    margin-top: 0px;
+    color: #ffffff;
+    background-color: #ec6e4b;
+    text-align: center;
+}
+
+
+#newGame{
+    width: 482px;
+    height: 193px;
+}
+
+h5 {
+    font-family: "Arial Black";
+    color: darkgray;
+    padding-left:0px;
+    font-size: medium;
+}
+
+
+label{
+    font-family: "Arial Black";
+    text-decoration-color: black;
+    padding-left:0px;
+    font-size: small;
+}
+#firstName{
+    color: black;
+
+}
+
+.wrapper {
+    display: inline-flex;
+    justify-content: center;
+    margin: 1vh 0;
+    padding: 1% 1% .5% 1%;
+    background: Black;
+    box-shadow: -1px 5px 5px rgba(0, 0, 0, 0.5);
+    height: 50%;
+    width: 50%;
+}
+
+.modal {
+    margin-top: 20vh !important;
+    border: solid .05em white;
+    /* box-shadow: -15px 20px 20px rgba(0, 0, 0, .75) !important;*/
+}
+
+.modal-content {
+    background: #35424a;
+
+}
+
+.modal-content .btn {
+    font-size: 18px !important;
+}
+
+.modal-content input {
+    color: white;
+    font-size: 24px !important;
+    width: 50% !important;
+    text-align: center;
+}
+
+.modal-content label {
+    font-size: 16px !important;
+}
+
+.btn:focus {
+    background-color: #ec6e4b !important;
+}
+
+.btn {
+    background-color: #ec6e4b !important;
+}
+
+.yourScore {
+    padding-bottom: 0px;
+}
+
+.detailsLeft {
+    width: 130px;
+    position: relative;
+    height: 90vh;
+    margin: 0% 2%;
+    text-align: right;
+    font-size: 16px;
+}
+
+.highScores {
+    position: absolute;
+    bottom: 35px;
+    right: 0px;
+    line-height: 10px;
+    font-size: 14px;
+}
+
+.detailsRight {
+    position: relative;
+    height: 90vh;
+    margin: 2% 2% 0% 2%;
+    text-align: left;
+}
+
+.next {
+    height: 15vh;
+    border: solid .1em white;
+}
+
+.controls {
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    font-size: 12px;
+    line-height: 8px;
+}
+
+.tetris {
+    height: 90vh;
+    border: solid .25em white;
+}
+
+    .modal-content {
+        background: #35424a;
+
+    }
+
+    .modal-content .btn {
+        font-size: 14px !important;
+    }
+
+    .modal-content input {
+        color: white;
+        font-size: 12px !important;
+        width: 50% !important;
+        text-align: center;
+    }
+
+    .modal-content label {
+        font-size: 14px !important;
+    }
+
+    .wrapper {
+        display: inline-flex;
+        justify-content: center;
+        background: rgba(0.1, 0, 0, 0.1) !important;
+        padding: 0% 0%;
+        /*background: Black;*/
+        margin: 0px !important;
+        height: 100%;
+        width: 100%;
+    }
+
+    .detailsLeft {
+        height: 80vh;
+        width: 170px;
+        margin: 5% 1% 0% 0%;
+        font-size: 14px;
+    }
+
+    .detailsRight {
+        height: 80vh;
+        width: 170px;
+        margin: 5% 0% 0% 1%;
+        text-align: left;
+    }
+    .score-title {
+        font-size: 14px;
+    }
+
+    .highScores {
+        line-height: 8px;
+        font-size: 12px;
+    }
+
+    .next {
+        border: solid .1em white;
+        height: 12vh;
+    }
+
+    .controls {
+        line-height: 8px;
+        font-size: 12px;
+    }
+
+    .tetris {
+        height: 85vh;
+        border: solid .25em white;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+/*====================================================================*/
+
+
